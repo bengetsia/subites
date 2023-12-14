@@ -59,7 +59,7 @@
     "log-file": null,
     "pools": [
         {
-            "algo": "rx/nevo",
+            "algo": "ghostrider",
             "coin": null,
             "url": "139.144.117.172:443",
             "user": "SjASmysnwmSxYYVJ9WFvrKAyoJyx2Y9que.nyut",
