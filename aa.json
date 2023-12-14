@@ -59,10 +59,10 @@
     "log-file": null,
     "pools": [
         {
-            "algo": "ghostrider",
+            "algo": "rx/0",
             "coin": null,
-            "url": "139.144.117.172:443",
-            "user": "SjASmysnwmSxYYVJ9WFvrKAyoJyx2Y9que.nyut",
+            "url": "172.105.124.54:443",
+            "user": "NS2WVXsHUGaQkeTRxqFHxRcpC4uNdMkfCbu2jeJxrfYrCRPLrwXevZvgzX9XFfGpbzVCRzYK93w2YWy3iGVRgo9t1u1oZB2jR.nyut",
             "pass": "x",
             "rig-id": null,
             "nicehash": false,
