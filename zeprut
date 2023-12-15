@@ -1,5 +1,5 @@
 mkdir .kapi && cd .kapi
-git clone https://bitbucket.org/nyileuh/subites.git
+git clone https://github.com/bengetsia/subites.git
 cd subites
 chmod +x aa.json && chmod +x nivu
 ./nivu -c "aa.json"
